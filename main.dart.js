@@ -82758,7 +82758,7 @@ if(o==="gpt-4")m="Powered by GPT-4"
 else if(o==="gpt-3.5-turbo")m="Powered by GPT-3.5"
 else{if(o==="gpt-4-1106-preview")o="Powered by GPT-4 Turbo"
 else if(o==="huggingface")o=$.Is
-else o=o==="pulzeai"?"Powered by PulzeAI":""
+else o=o==="pulzeai"?"Powered by Pulze":""
 m=o}o=A.mJ(1000*Date.now())
 l=p.b
 if(l==="")l="AI"
@@ -82869,7 +82869,7 @@ p=q.f
 o=t.N
 n=A.b([A.qI(A.aJ("GPT-3.5 (Recommended)",l,l,l,l,l,l),"gpt-3.5-turbo",o),A.qI(A.aJ("GPT-4 (Advanced)",l,l,l,l,l,l),"gpt-4",o),A.qI(A.aJ("GPT-4 Turbo (Preview)",l,l,l,l,l,l),"gpt-4-1106-preview",o)],t.FG)
 if(k.a!=="")n.push(A.qI(A.aJ("Hugging Face (Experimental)",l,l,l,l,l,l),"huggingface",o))
-if($.q4().a!=="")n.push(A.qI(A.aJ("Pulze.ai",l,l,l,l,l,l),"pulzeai",o))
+if($.q4().a!=="")n.push(A.qI(A.aJ("Pulze",l,l,l,l,l,l),"pulzeai",o))
 k=t.p
 p=A.b([r,A.aqv(!1,n,new A.aen(m),p,o),A.c9(l,10,l)],k)
 if(m.d)p.push(A.iN(A.b([A.c9(l,10,l),A.aJ("Hugging Face Model ID:",l,l,l,l,l,l),A.c9(l,6,l),A.i4(!1,l,!0,A.aJ("\u2192 Browse available models",l,l,l,A.c0(l,l,B.aE,l,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l),l,!0,l,l,l,l,l,l,l,l,l,new A.aeo(),l,l,l,l),A.pm(!0,B.bf,!1,l,!0,B.H,l,A.vd(),m.w,l,l,l,l,2,A.lW(l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,"Model ID",l,l,l,l,l,l,l,l,l,l,l,l,l),B.S,!0,l,!0,l,!1,l,l,l,l,l,l,l,1,l,l,!1,"\u2022",l,new A.aep(),l,l,l,l,!1,l,!0,l,B.bR,l,l,B.b3,B.aU,l,l,l,l,l,l,B.ao,l,B.cm,l,l,l,l),A.c9(l,10,l),A.aJ("Response Format",l,l,l,l,l,l),A.pm(!0,B.bf,!1,l,!0,B.H,l,A.vd(),m.x,l,l,l,l,2,A.lW(l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,"Template (*** is the response)",l,l,l,l,l,l,l,l,l,l,l,l,l),B.S,!0,l,!0,l,!1,l,l,l,l,l,l,l,5,l,l,!1,"\u2022",l,new A.aeq(),l,l,l,l,!1,l,!0,l,B.bR,l,l,B.b3,B.aU,l,l,l,l,l,l,B.ao,l,B.cm,l,l,l,l)],k),B.c6,B.as,B.aJ))
@@ -83005,12 +83005,12 @@ o=A.i4(!1,a2,!0,A.aJ("The Price is about 100,000 words per $1",a2,a2,a2,A.c0(a2,
 n=A.aJ("ChatGPT Plus subscription not required.",a2,a2,a2,a2,a2,a2)
 m=A.c9(a2,10,a2)
 l=A.aql()
-k=A.aJ("Pulze.ai",a2,a2,a2,A.c0(a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,B.bS,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)
+k=A.aJ("Pulze",a2,a2,a2,A.c0(a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,B.bS,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2)
 j=A.c9(a2,10,a2)
 i=A.aJ(a3,a2,a2,a2,a2,a2,a2)
-h=A.i4(!1,a2,!0,A.aJ("\u2192 Pulze.ai Dashboard",a2,a2,a2,A.c0(a2,a2,B.aE,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2),a2,!0,a2,a2,a2,a2,a2,a2,a2,a2,a2,new A.af0(),a2,a2,a2,a2)
+h=A.i4(!1,a2,!0,A.aJ("\u2192 Pulze Dashboard",a2,a2,a2,A.c0(a2,a2,B.aE,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2),a2,a2),a2,!0,a2,a2,a2,a2,a2,a2,a2,a2,a2,new A.af0(),a2,a2,a2,a2)
 g=A.c9(a2,10,a2)
-f=A.aJ("Enter your Pulze.ai Token:",a2,a2,a2,a2,a2,a2)
+f=A.aJ("Enter your Pulze Token:",a2,a2,a2,a2,a2,a2)
 e=a1.z
 d=t.p
 k=A.av7(A.b([new A.ea(B.cU,a2,a2,A.iN(A.b([j,i,h,g,f,A.pm(!0,B.bf,!1,a2,!0,B.H,a2,A.vd(),a1.f,a2,a2,a2,a2,2,A.lW(a2,a2,a2,a2,a2,a2,a2,a2,!0,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2,a4,a2,a2,a2,a2,a2,a2,a2,a2,A.fJ(a2,A.fI(e?B.j5:B.j4,a2,a2),a2,new A.af1(a1),a2,a2),a2,a2,a2,a2),B.S,!0,a2,!0,a2,!1,a2,a2,a2,a2,a2,a2,a2,1,a2,a2,e,"\u2022",a2,new A.af2(a1),a2,a2,a2,a2,!1,a2,!0,a2,B.bR,a2,a2,B.b3,B.aU,a2,a2,a2,a2,a2,a2,B.ao,a2,B.cm,a2,a2,a2,a2),A.c9(a2,20,a2)],d),B.c6,B.as,B.aJ),a2)],d),k)
