@@ -84609,42 +84609,44 @@ return A.D($.G2().ke(0,"openai_api_key",a),$async$rT)
 case 2:return A.K(null,r)}})
 return A.L($async$rT,r)},
 qu(a,b){return this.Ws(a,b)},
-Ws(a1,a2){var s=0,r=A.M(t.N),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
-var $async$qu=A.N(function(a3,a4){if(a3===1){o=a4
-s=p}while(true)switch(s){case 0:b=n.a
-if(b.length===0){q=""
+Ws(a0,a1){var s=0,r=A.M(t.N),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
+var $async$qu=A.N(function(a2,a3){if(a2===1){o=a3
+s=p}while(true)switch(s){case 0:c=n.a
+if(c===""){q="Enter API key in settings"
+s=1
+break}if(c.length===0){q=""
 s=1
 break}h=A.axW("POST",A.eH(u.B,0,null))
 g=t.N
-h.r.W(0,A.a3(["Content-Type","application/json","Authorization","Bearer "+b],g,g))
-f=t.K
-e=t.Mq
-h.sRK(0,B.ay.ps(A.a3(["model","gpt-4-vision-preview","temperature",0,"max_tokens",4096,"messages",A.b([A.a3(["role","system","content",'You are a skilled web developer with expertise in Tailwind CSS. A user will provide a low-fidelity wireframe along with descriptive notes. Your task is to create a high-fidelity, responsive HTML webpage using Tailwind CSS and JavaScript, embedded within a single HTML file.\n\n- Embed additional CSS and JavaScript directly in the HTML file.\n- For images, use placeholders from Unsplash or solid color rectangles.\n- Draw inspiration for fonts, colors, and layouts from user-provided style references or wireframes.\n- For any previous design iterations, use the provided HTML to refine the design further.\n- Apply creative improvements to enhance the design.\n- Load JavaScript dependencies through JavaScript modules and unpkg.com.\n\nThe final output should be a single HTML file, starting with "<html>". Avoid markdown, excessive newlines, and the character sequence "```".\n'],g,g),A.a3(["role","user","content",A.b([A.a3(["type","text","text",a2],g,g),A.a3(["type","image_url","image_url",A.a3(["url","data:image/jpeg;base64,"+a1],g,g)],g,f)],e)],g,f)],e)],g,f),null))
+h.r.W(0,A.a3(["Content-Type","application/json","Authorization","Bearer "+c],g,g))
+c=t.K
+f=t.Mq
+h.sRK(0,B.ay.ps(A.a3(["model","gpt-4-vision-preview","temperature",0,"max_tokens",4096,"messages",A.b([A.a3(["role","system","content",'You are a skilled web developer with expertise in Tailwind CSS. A user will provide a low-fidelity wireframe along with descriptive notes. Your task is to create a high-fidelity, responsive HTML webpage using Tailwind CSS and JavaScript, embedded within a single HTML file.\n\n- Embed additional CSS and JavaScript directly in the HTML file.\n- For images, use placeholders from Unsplash or solid color rectangles.\n- Draw inspiration for fonts, colors, and layouts from user-provided style references or wireframes.\n- For any previous design iterations, use the provided HTML to refine the design further.\n- Apply creative improvements to enhance the design.\n- Load JavaScript dependencies through JavaScript modules and unpkg.com.\n\nThe final output should be a single HTML file, starting with "<html>". Avoid markdown, excessive newlines, and the character sequence "```".\n'],g,g),A.a3(["role","user","content",A.b([A.a3(["type","text","text",a1],g,g),A.a3(["type","image_url","image_url",A.a3(["url","data:image/jpeg;base64,"+a0],g,g)],g,c)],f)],g,c)],f)],g,c),null))
 m=h
 p=4
-a0=A
+a=A
 s=8
 return A.D(J.aEf(m),$async$qu)
 case 8:s=7
-return A.D(a0.LG(a4),$async$qu)
-case 7:l=a4
-if(l.b===200){g=l
-k=B.ay.n1(0,A.Xy(A.Xm(g.e).c.a.h(0,"charset")).dP(0,g.w),null)
-g=J.ae(k,"choices")
-d=g==null?null:J.ae(J.ae(J.iQ(g),"message"),"content")
-j=d==null?"":d
+return A.D(a.LG(a3),$async$qu)
+case 7:l=a3
+if(l.b===200){c=l
+k=B.ay.n1(0,A.Xy(A.Xm(c.e).c.a.h(0,"charset")).dP(0,c.w),null)
+c=J.ae(k,"choices")
+e=c==null?null:J.ae(J.ae(J.iQ(c),"message"),"content")
+j=e==null?"":e
 q=j
 s=1
-break}else{g=l
-A.fF("Failed to get HTML from OpenAI: "+A.Xy(A.Xm(g.e).c.a.h(0,"charset")).dP(0,g.w))
+break}else{c=l
+A.fF("Failed to get HTML from OpenAI: "+A.Xy(A.Xm(c.e).c.a.h(0,"charset")).dP(0,c.w))
 q=""
 s=1
 break}p=2
 s=6
 break
 case 4:p=3
-a=o
-i=A.ai(a)
+b=o
+i=A.ai(b)
 A.fF("Caught error: "+A.j(i))
 q=""
 s=1
